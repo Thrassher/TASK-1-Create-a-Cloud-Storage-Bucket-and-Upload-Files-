@@ -1,0 +1,31 @@
+TASK – 1 (Create a Cloud Storage Bucket and Upload Files)
+
+
+📌 Task Overview
+This task involves creating a Cloud Storage Bucket, uploading files to it, and configuring public access policies using a JSON policy generator. The goal is to make the uploaded files publicly accessible over the internet.
+
+🚀 Steps Performed
+1. Created a Cloud Storage Bucket
+•	Logged into the AWS account
+•	Navigated to the S3 bucket section.
+•	Clicked “Create Bucket” and provided:
+o	A unique bucket name i.e. (arsh-task-1)
+o	Region selection for storage location (Asia Pacific (Mumbai) ap-south-1)
+
+2. Uploaded Files
+•	Uploaded files (e.g., images) to the created bucket using:
+o	The Cloud Console UI
+
+3. Configured Public Access (Bucket Policy)
+•	Block Public Policy set to off 
+•	Bucket policy configures by the JSON file
+
+4. Verified Public Access
+•	Public Access URL:  https://arsh-task-1.s3.ap-south-1.amazonaws.com/test.jpg
+•	Confirmed the file loads publicly without authentication.
+
+ Outcome
+•	Successfully created a Cloud Storage Bucket
+•	Uploaded files to the bucket
+•	Configured public access via a JSON policy
+•	Verified that files are accessible publicly
